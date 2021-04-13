@@ -8,10 +8,12 @@ Pod::Spec.new do |spec|
   
     spec.ios.deployment_target  = '10.0'
   
-    spec.source       = { :git => '' }
+    spec.source       = { :git => '/Users/macbook/Documents/Xcode\ Projects/mobile-ios/Shared/Libraries/JMDesignKit' }
     spec.source_files = '**/*.{h,m,swift}'
   
     spec.framework    = 'SystemConfiguration'
+
+    spec.dependency     'JMCodingKit'
   
     spec.exclude_files = 'Info.plist'
   end

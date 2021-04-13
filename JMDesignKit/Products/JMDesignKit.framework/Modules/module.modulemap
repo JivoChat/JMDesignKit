@@ -1,0 +1,11 @@
+framework module JMDesignKit {
+  umbrella header "JMDesignKit.h"
+
+  export *
+  module * { export * }
+}
+
+module JMDesignKit.Swift {
+    header "JMDesignKit-Swift.h"
+    requires objc
+}
