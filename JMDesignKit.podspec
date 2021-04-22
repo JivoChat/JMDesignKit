@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   
     spec.ios.deployment_target  = "10.0"
   
-    spec.source       = { :git => "" }
+    spec.source       = { :git => "https://github.com/JivoChat/JMDesignKit", :tag => spec.version }
     # spec.source   = { :git => "/Users/macbook/Documents/Xcode\ Projects/mobile-ios/Shared/Libraries/JMDesignKit", :tag => spec.version }
     spec.source_files = "**/*.{h,m,swift}"
     # spec.source_files = "JMDesignKit/Products/**/*.*"
