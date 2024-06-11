@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
     spec.name         = "JMDesignKit"
-    spec.version      = "1.0.0"
+    spec.version      = "1.1.1"
     spec.license      = { :type => "MIT" }
     spec.homepage     = "https://github.com/bronenos"
     spec.authors      = { "Stan Potemkin" => "potemkin@jivosite.com" }
     spec.summary      = "JMDesignKit"
   
-    spec.ios.deployment_target  = "10.0"
+    spec.ios.deployment_target  = "12.0"
   
     spec.source       = { :git => "https://github.com/JivoChat/JMDesignKit.git", :tag => spec.version }
     # spec.source   = { :git => "/Users/macbook/Documents/Xcode\ Projects/mobile-ios/Shared/Libraries/JMDesignKit", :tag => spec.version }
